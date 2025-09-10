@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hatay ODTÜ Mezunları Derneği</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+  <!-- Logo Section -->
+  <section class="bg-blue-900 py-8">
+    <div class="container mx-auto px-4 flex justify-center">
+      <img src="logo.png" alt="Hatay ODTÜ Mezunları Derneği Logo" class="h-32 md:h-48">
+    </div>
+  </section>
+
+  <!-- Header -->
+  <header class="bg-blue-900 text-white py-4">
+    <div class="container mx-auto px-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Hatay ODTÜ Mezunları Derneği</h1>
+      <nav>
+        <ul class="flex space-x-6">
+          <li><a href="#anasayfa" class="hover:text-gray-300">Ana Sayfa</a></li>
+          <li><a href="#hakkimizda" class="hover:text-gray-300">Hakkımızda</a></li>
+          <li><a href="#etkinlikler" class="hover:text-gray-300">Etkinlikler</a></li>
+          <li><a href="#iletisim" class="hover:text-gray-300">İletişim</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="anasayfa" class="bg-blue-800 text-white py-16">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-4xl font-bold mb-4">Hoş Geldiniz!</h2>
+      <p class="text-lg mb-6">Hatay ODTÜ Mezunları Derneği, ODTÜ mezunlarını bir araya getirerek sosyal, kültürel ve profesyonel etkinlikler düzenler.</p>
+      <a href="#iletisim" class="bg-yellow-500 text-black px-6 py-2 rounded hover:bg-yellow-600">Bize Katılın</a>
+    </div>
+  </section>
+
+  <!-- Hakkımızda Section -->
+  <section id="hakkimizda" class="py-16">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-8">Hakkımızda</h2>
+      <p class="text-lg text-gray-700 leading-relaxed">
+        Hatay ODTÜ Mezunları Derneği, Orta Doğu Teknik Üniversitesi mezunlarını bir araya getirerek dayanışma ve iş birliğini güçlendirmeyi amaçlar. 
+        Hatay'da sosyal, kültürel ve profesyonel etkinlikler düzenleyerek mezunlar arasında bağları kuvvetlendirmeyi ve topluma katkıda bulunmayı hedefliyoruz.
+      </p>
+    </div>
+  </section>
+
+  <!-- Etkinlikler Section -->
+  <section id="etkinlikler" class="bg-gray-200 py-16">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-8">Etkinliklerimiz</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h3 class="text-xl font-semibold mb-2">Mezun Buluşması</h3>
+          <p class="text-gray-600">Her yıl düzenlenen mezun buluşmamızda eski dostlarla bir araya geliyoruz.</p>
+          <p class="text-gray-500 mt-2">Tarih: Yakında açıklanacak</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h3 class="text-xl font-semibold mb-2">Kariyer Günü</h3>
+          <p class="text-gray-600">Mezunlarımız ve öğrenciler için kariyer fırsatlarını tartışıyoruz.</p>
+          <p class="text-gray-500 mt-2">Tarih: Yakında açıklanacak</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h3 class="text-xl font-semibold mb-2">Kültürel Gezi</h3>
+          <p class="text-gray-600">Hatay’ın tarihi ve kültürel mekanlarını birlikte keşfediyoruz.</p>
+          <p class="text-gray-500 mt-2">Tarih: Yakında açıklanacak</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- İletişim Section -->
+  <section id="iletisim" class="py-16">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-8">İletişim</h2>
+      <div class="flex flex-col md:flex-row justify-center items-center">
+        <div class="md:w-1/2 text-center md:text-left">
+          <p class="text-lg text-gray-700 mb-4">Bizimle iletişime geçmek için aşağıdaki bilgileri kullanabilirsiniz:</p>
+          <p class="text-gray-600">E-posta: hatayodtumd@gmail.com</p>
+          <p class="text-gray-600">Telefon: +90 555 123 45 67</p>
+          <p class="text-gray-600">Adres: Hatay, Türkiye</p>
+        </div>
+        <div class="md:w-1/2 mt-6 md:mt-0">
+          <div class="bg-white p-6 rounded-lg shadow">
+            <h3 class="text-xl font-semibold mb-4">Bize Yazın</h3>
+            <div>
+              <input type="text" placeholder="Adınız" class="w-full p-2 mb-4 border rounded">
+              <input type="email" placeholder="E-posta" class="w-full p-2 mb-4 border rounded">
+              <textarea placeholder="Mesajınız" class="w-full p-2 mb-4 border rounded h-32"></textarea>
+              <button class="bg-blue-900 text-white px-6 py-2 rounded hover:bg-blue-800">Gönder</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-900 text-white py-4">
+    <div class="container mx-auto px-4 text-center">
+      <p>&copy; 2025 Hatay ODTÜ Mezunları Derneği. Tüm hakları saklıdır.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Smooth scrolling for navigation links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+</body>
+</html>
