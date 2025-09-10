@@ -74,30 +74,30 @@
   </section>
 
   <!-- İletişim Section -->
-  <section id="iletisim" class="py-16">
-    <div class="container mx-auto px-4">
-      <h2 class="text-3xl font-bold text-center mb-8">İletişim</h2>
-      <div class="flex flex-col md:flex-row justify-center items-center">
-        <div class="md:w-1/2 text-center md:text-left">
-          <p class="text-lg text-gray-700 mb-4">Bizimle iletişime geçmek için aşağıdaki bilgileri kullanabilirsiniz:</p>
-          <p class="text-gray-600">E-posta: hatayodtumd@gmail.com</p>
-          <p class="text-gray-600">Telefon: +90 5444757854</p>
-          <p class="text-gray-600">Adres: Hatay, Türkiye</p>
-        </div>
-        <div class="md:w-1/2 mt-6 md:mt-0">
-          <div class="bg-white p-6 rounded-lg shadow">
-            <h3 class="text-xl font-semibold mb-4">Bize Yazın</h3>
-            <div>
-              <input type="text" placeholder="Adınız" class="w-full p-2 mb-4 border rounded">
-              <input type="email" placeholder="E-posta" class="w-full p-2 mb-4 border rounded">
-              <textarea placeholder="Mesajınız" class="w-full p-2 mb-4 border rounded h-32"></textarea>
-              <button class="bg-blue-900 text-white px-6 py-2 rounded hover:bg-blue-800">Gönder</button>
-            </div>
-          </div>
+<section id="iletisim" class="py-16">
+  <div class="container mx-auto px-4">
+    <h2 class="text-3xl font-bold text-center mb-8">İletişim</h2>
+    <div class="flex flex-col md:flex-row justify-center items-center">
+      <div class="md:w-1/2 text-center md:text-left">
+        <p class="text-lg text-gray-700 mb-4">Bizimle iletişime geçmek için aşağıdaki bilgileri kullanabilirsiniz:</p>
+        <p class="text-gray-600">E-posta: hatayodtumd@gmail.com</p>
+        <p class="text-gray-600">Telefon: +90 555 123 45 67</p>
+        <p class="text-gray-600">Adres: Hatay, Türkiye</p>
+      </div>
+      <div class="md:w-1/2 mt-6 md:mt-0">
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h3 class="text-xl font-semibold mb-4">Bize Yazın</h3>
+          <form action="https://formspree.io/f/mzzaojbg" method="POST">
+            <input type="text" name="name" placeholder="Adınız" class="w-full p-2 mb-4 border rounded" required>
+            <input type="email" name="email" placeholder="E-posta" class="w-full p-2 mb-4 border rounded" required>
+            <textarea name="message" placeholder="Mesajınız" class="w-full p-2 mb-4 border rounded h-32" required></textarea>
+            <button type="submit" class="bg-blue-900 text-white px-6 py-2 rounded hover:bg-blue-800">Gönder</button>
+          </form>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
   <!-- Footer -->
   <footer class="bg-blue-900 text-white py-4">
